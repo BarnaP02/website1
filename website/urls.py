@@ -19,5 +19,6 @@ from archive.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', signup)
+    path('', signin),
+    path('signup/', signup)
 ]
